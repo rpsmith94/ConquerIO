@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://rpsmith94.github.io/ConquerIO/blog</id>
+    <id>https://rpsmith94.github.io/blog</id>
     <title>Leonardo Component Architecture Blog</title>
     <updated>2020-09-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://rpsmith94.github.io/ConquerIO/blog"/>
+    <link rel="alternate" href="https://rpsmith94.github.io/blog"/>
     <subtitle>Leonardo Component Architecture Blog</subtitle>
-    <icon>https://rpsmith94.github.io/ConquerIO/img/favicon.png</icon>
+    <icon>https://rpsmith94.github.io/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Quant is live!]]></title>
-        <id>https://rpsmith94.github.io/ConquerIO/blog/2020/09/28/welcome</id>
-        <link href="https://rpsmith94.github.io/ConquerIO/blog/2020/09/28/welcome"/>
+        <id>https://rpsmith94.github.io/blog/2020/09/28/welcome</id>
+        <link href="https://rpsmith94.github.io/blog/2020/09/28/welcome"/>
         <updated>2020-09-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[It's launch time! 🚀 🎉]]></summary>
         <content type="html"><![CDATA[<p>It's launch time! 🚀 🎉</p><p>After a long time conceptualising, developing, testing, and confirming our assumptions with some of the biggest sites on the web we are ready for action.</p><p>We are huge advocates of the static web, and all it represents. Serving efficiency, speed, security, simplicity. QuantCDN was born from a desire to make things even better. By <strong>lowering the barrier</strong> and providing turnkey solutions we put the static web in reach of even more people. By providing <strong>rich APIs</strong> we continue to allow developers to continue to do what they do best.</p><p>QuantCDN is a modern, global edge CDN backed on reliable and proven cloud-agnostic infrastructure. Read more about the features of the <a href="https://www.quantcdn.io/features" target="_blank" rel="noopener noreferrer">Quant static edge platform</a>.</p><p>This blog will serve as a central place to share release notes, upcoming features and musings on the static web movement.</p>]]></content>

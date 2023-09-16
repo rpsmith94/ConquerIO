@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkquant_docs=self.webpackChunkquant_docs||[]).push([[7795],{2407:function(e){e.exports=JSON.parse('{"permalink":"/ConquerIO/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
