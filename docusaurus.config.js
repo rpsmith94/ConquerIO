@@ -1,11 +1,14 @@
 module.exports = {
     title: 'Leonardo Component Architecture',
     tagline: 'Leonardo Component Architecture',
-    url: 'https://docs.quantcdn.io',
+    url: 'https://rpsmith94.github.io/',
     baseUrl: '/',
     favicon: 'img/favicon.png',
-    organizationName: 'Leonardo', // Usually your GitHub org/user name.
-    projectName: 'docs', // Usually your repo name.
+    organizationName: 'rpsmith94', // Usually your GitHub org/user name.
+    projectName: 'ConquerIO', // Usually your repo name.
+    trailingSlash: false,
+
+   // deploymentBranch: "prod",
     stylesheets: [
         'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap',
     ],

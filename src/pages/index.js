@@ -71,7 +71,7 @@ function Home() {
         <div class="fallingStar">&nbsp;</div>
         </div>
       
-          <img className={styles.featureImage} src='/img/nuclear-fission.png' alt="quantcdn.io" />
+          <img className={styles.featureImage} imageUrl='/img/nuclear-fission.png' alt="quantcdn.io" />
           <p className="hero__subtitle">{siteConfig.tagline}</p>     
           <div>
           <span>Make your Architecture </span>
