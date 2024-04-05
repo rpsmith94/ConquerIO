@@ -1,14 +1,13 @@
 module.exports = {
+    
     title: 'Leonardo Component Architecture',
     tagline: 'Leonardo Component Architecture',
     url: 'https://rpsmith94.github.io/',
-    baseUrl: '/',
+    baseUrl: '/ConquerIO/',
     favicon: 'img/favicon.png',
     organizationName: 'rpsmith94', // Usually your GitHub org/user name.
     projectName: 'ConquerIO', // Usually your repo name.
     trailingSlash: false,
-
-   // deploymentBranch: "prod",
     stylesheets: [
         'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap',
     ],
@@ -19,31 +18,50 @@ module.exports = {
         //  appId: '',
         //  algoliaOptions: {}, // Optional, if provided by Algolia
         //},
+        announcementBar: {
+            id: 'support_us',
+            content:
+              'The page is a work in progress (Home page only)',
+            backgroundColor: '#fafbfc',
+            textColor: '#091E42',
+            isCloseable: false,
+          },
         colorMode: {
             defaultMode: 'dark',
             disableSwitch: false,
             respectPrefersColorScheme: false,
         },
         navbar: {
-            title: 'LCA',
-            /*logo: {
-                alt: 'QuantCDN Logo',
-                src: 'img/logo.png',
-                href: 'https://www.quantcdn.io',
-            },*/
+             logo: {
+                alt: 'Q',
+                src: 'img/nuclear-fission.png',
+                href: ' ',
+            },
+            title: 'Conquer',
+           
             items: [
-                { to: 'docs/welcome', label: 'Overview', position: 'left' },
-                { to: 'docs/integrations/overview', label: 'Integrations', position: 'left' },
-                { to: 'docs/dashboard/get-started', label: 'Dashboard', position: 'left' },
-                { to: 'docs/cli/get-started', label: 'CLI', position: 'left' },
-                { to: 'docs/api/get-started-content', label: 'API', position: 'left' },
-                {to: 'docs/security/overview', label: 'Security', position: 'left'},
+                { to:'#overview-link', label: 'Introduction', position: 'left' },
+                { to:'#feature-link', label: 'Features', position: 'left' },
+                { to: ' ', label: 'Guides', position: 'left' },
+                { to: ' ', label: 'Tooling', position: 'left' },
+                { to: ' ', label: 'Community', position: 'left' },
+                { to: ' ', label: 'Comparisons', position: 'left' },
+                {to: ' ', label: 'Requirements', position: 'left'},             
+                {to: ' ', label: 'V1.0.0', position: 'right'},
+                {to: ' ', label: 'License', position: 'left'},             
                 {
-                    href: 'https://www.quantcdn.io',
-                    label: 'quantcdn.io',
-                    position: 'right',
-                    css: 'navbar__brand',
+                    href: "https://github.com/",
+                    position: "right",
+                    className: "header-github-link",
+                    "aria-label": "GitHub repository",
                 },
+                {
+                    href: "https://stackoverflow.com/",
+                    position: "right",
+                    className:"header-conan-link",
+                    "aria-label": "GitHub repository",
+
+                }
             ],
         },
         footer: {
@@ -80,20 +98,19 @@ module.exports = {
                     title: 'Social',
                     items: [{
                             label: 'Blog',
-                            to: 'https://www.quantcdn.io/blog',
+                            href: 'https://google.com',
                         },
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/quantcdn',
+                            href: 'https://google.com',
                         },
                         {
                             label: 'Twitter',
-                            href: 'https://twitter.com/quantcdn',
+                            href: 'https://google.com',
                         },
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} QuantCDN Pty Ltd. Built with Docusaurus, Deployed via Quant.`,
         },
     },
     plugins: [require.resolve("@cmfcmf/docusaurus-search-local"),'docusaurus-plugin-sass'],
@@ -103,7 +120,6 @@ module.exports = {
             {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    editUrl: 'https://github.com/quantcdn/docs/tree/develop',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.scss'),

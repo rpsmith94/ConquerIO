@@ -20,7 +20,8 @@
     "node-sass": "^9.0.0",
     "react": "^16.8.4",
     "react-accessible-accordion": "^5.0.0",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-router-hash-link": "^2.4.3"
   },
   "browserslist": {
     "production": [
